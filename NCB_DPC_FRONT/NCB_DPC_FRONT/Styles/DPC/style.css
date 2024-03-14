@@ -1,0 +1,393 @@
+﻿body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.removeCaps {
+    text-transform: none !important;
+}
+
+/* The Modal (background) */
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    padding-top: 100px; /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+/* Modal Content */
+.modal-content {
+    background-color: #fefefe;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%;
+}
+
+/* The Close Button */
+.close {
+    color: #aaaaaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+    .close:hover,
+    .close:focus {
+        color: #000;
+        text-decoration: none;
+        cursor: pointer;
+    }
+
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 5%;
+}
+
+.DPCApplication {
+    max-width: 100%;
+}
+
+    .DPCApplication .form-row:not(#btnRow) {
+        display: flex;
+        flex-wrap: wrap;
+        max-width: 80%;
+        margin: 0 auto;
+        float: none;
+    }
+
+#btnRow {
+    max-width: 85%;
+    margin: 0 auto;
+    float: none;
+    text-align: center;
+}
+
+.DPCApplication .form-fields.submit input {
+    width: 200px;
+    padding: 12px 30px;
+    margin: 0 auto;
+    border: none;
+    background-color: #799951;
+    color: #fff;
+    font-size: 20;
+    font-weight: 500;
+}
+
+.DPCApplication .form-fields.submit a {
+    text-decoration: none;
+    display: block;
+    width: 140px;
+    padding: 12px 30px;
+    margin: 0 auto;
+    border: none;
+    background-color: #799951;
+    color: #fff;
+    font-size: 20;
+    font-weight: 500;
+}
+
+    .DPCApplication .form-fields.submit input:hover, .DPCApplication .form-fields.submit a:hover {
+        background-color: #02AFEF;
+        cursor: pointer;
+    }
+
+.DPCApplication .form-fields.submitTC input {
+    width: 250px;
+    padding: 12px 30px;
+    margin: 0 auto;
+    border: none;
+    background-color: #799951;
+    color: #fff;
+    font-size: 20;
+    font-weight: 500;
+}
+
+    .DPCApplication .form-fields.submitTC input:hover {
+        background-color: #02AFEF;
+        cursor: pointer;
+    }
+
+#txt_trainingCentreCode {
+    margin-top: 4px;
+}
+
+.new-title-block {
+    width: 77%;
+    position: relative;
+    float: left;
+    margin-top: 30px;
+    margin-bottom: 15px;
+}
+
+.inner-sub-title {
+    font-size: 52px;
+    font-weight: 700 !important;
+    color: #799951;
+}
+
+.sub-title {
+    font-size: 25px;
+    font-weight: 600 !important;
+    color: #799951;
+}
+
+span.tooltip {
+    color: #ff0000;
+    font-size: 22px;
+    line-height: 26px;
+    cursor: pointer;
+}
+
+span.mandatory {
+    background: #465159;
+    color: #fff;
+    font-size: 12px;
+    line-height: 18px;
+    display: inline-block;
+    margin-left: 10px;
+    opacity: 0;
+    visibility: hidden;
+    position: absolute;
+    max-width: 0;
+    padding: 5px 8px;
+    border-radius: 3px;
+    transition: all 0.5s ease-out 0s;
+}
+
+span.tooltip:hover + span.mandatory {
+    opacity: 1;
+    visibility: visible;
+    max-width: 100%;
+}
+
+.form-fields {
+    position: relative;
+    margin: 2% 2% 0;
+}
+
+    .form-fields.w100 {
+        width: 100%;
+    }
+
+        .form-fields.w100.field-med input, .form-fields.w100.field-med select {
+            width: 46%;
+        }
+
+        .form-fields.w100.field-sm input, .form-fields.w100.field-sm select {
+            width: 29.3%;
+        }
+
+    .form-fields.w50 {
+        width: 46%;
+    }
+
+    .form-fields.w30 {
+        width: 29.3%;
+    }
+
+    .form-fields.w70 {
+        width: 65.7%;
+    }
+
+@media screen and (max-width: 900px) {
+    .form-fields.w100.field-sm input, .form-fields.w100.field-sm select {
+        width: 100%;
+    }
+
+    .form-fields.w30 {
+        width: 100%;
+    }
+
+    .form-fields.w70 {
+        width: 100%;
+    }
+
+    .form-fields.w50 {
+        width: 100%;
+    }
+
+    .form-fields.w100.field-med input, .form-fields.w100.field-med select {
+        width: 100%;
+    }
+
+    .form-fields-sm-tit {
+        margin: 15px 0 0;
+    }
+
+    .form-fields {
+        position: relative;
+        margin: 5% 0 0;
+    }
+
+        .form-fields input[type='text'], .form-fields select {
+            height: 40px;
+        }
+}
+
+.form-row .form-fields label {
+    font-size: 14px;
+    line-height: 22px;
+    font-weight: bold;
+    color: #000000a3;
+}
+
+.form-fields input[type='text'], .form-fields select {
+    width: 100%;
+    height: 35px;
+    border: 1px solid #c5c5c5;
+    font-size: 14px;
+    line-height: 22px;
+    color: #47515a;
+    border-radius: 0;
+    background-color: transparent;
+    text-transform: capitalize;
+    padding: 0 15px;
+}
+
+.form-fields textarea {
+    width: 100%;
+    min-height: 100px;
+    border: 1px solid #c5c5c5;
+    font-size: 14px;
+    line-height: 22px;
+    color: #47515a;
+    border-radius: 0;
+    background-color: transparent;
+    text-transform: capitalize;
+    padding: 15px;
+    margin-top: 4px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.form-fields input[type='checkbox'] {
+    margin-right: 3.5%;
+    height: 17px;
+    width: 17px;
+}
+
+label.lbl_days_text {
+    vertical-align: text-bottom;
+    font-size: 16px !important;
+    font-weight: 500 !important;
+}
+
+#tblCourses {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+    #tblCourses td, #tblCourses th {
+        border: 1px solid #ddd;
+        padding: 8px;
+    }
+
+    #tblCourses tr:nth-child(even) {
+        background-color: #f2f2f2;
+    }
+
+    #tblCourses tr:hover {
+        background-color: #ddd;
+    }
+
+    #tblCourses thead {
+        padding-top: 12px;
+        padding-bottom: 12px;
+        text-align: left;
+        background-color: #799951;
+        color: white;
+        font-weight: 600;
+    }
+
+.not-mandatory {
+    margin-top: 4px;
+}
+
+.alert {
+    padding: 15px;
+    margin-bottom: 20px;
+    border: 1px solid transparent;
+    border-radius: 4px;
+    display: flex;
+    align-items: center;
+}
+
+    .alert:before {
+        content: '';
+        position: absolute;
+        width: 0;
+        height: calc(100% - 44px);
+        border-left: 1px solid;
+        border-right: 2px solid;
+        border-bottom-right-radius: 3px;
+        border-top-right-radius: 3px;
+        left: 0;
+        top: 50%;
+        transform: translate(0,-50%);
+        height: 20px;
+    }
+
+    .alert > .start-icon {
+        margin-right: 0;
+        min-width: 20px;
+        text-align: center;
+        margin-right: 5px;
+        float: left;
+    }
+
+.alert-simple.alert-info {
+    border: 1px solid rgba(6, 44, 241, 0.46);
+    background-color: rgba(7, 73, 149, 0.12156862745098039);
+    box-shadow: 0px 0px 2px #0396ff;
+    color: #0396ff;
+    transition: 0.5s;
+}
+
+.alert-info:hover {
+    background-color: rgba(7, 73, 149, 0.35);
+    transition: 0.5s;
+}
+
+#radioBtn_public {
+    margin-top: 10px;
+}
+
+#radioBtn_private {
+    margin-left: 10%;
+}
+
+.declaration {
+    color: red;
+}
+
+.declarationText {
+    display: inline-flex;
+    margin-top: 10px;
+    margin-left: 2%;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.inline {
+    display: inline-flex;
+    margin-top: 10px;
+    font-size: 15px;
+}
+
+    .inline input {
+        margin-right: 8px;
+        margin-top: 3.5px;
+        font-size: 15px;
+    }
+
+    .inline label {
+        cursor: pointer;
+        margin-right: 25px;
+        font-size: 15px;
+    }

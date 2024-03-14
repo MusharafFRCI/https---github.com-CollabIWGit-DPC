@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/" >
+  <Module Name="WP_DPCApplicationForm" List="113" Url="_catalogs/wp">
+    <File Path="WP_DPCApplicationForm\WP_DPCApplicationForm.webpart" Url="NCB_DPC_FRONT_WP_DPCApplicationForm.webpart" Type="GhostableInLibrary" >
+      <Property Name="Group" Value="Custom" />
+    </File>
+  </Module>
+</Elements>

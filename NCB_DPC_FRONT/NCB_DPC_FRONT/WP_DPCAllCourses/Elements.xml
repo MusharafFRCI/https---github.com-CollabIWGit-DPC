@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/" >
+  <Module Name="WP_DPCAllCourses" List="113" Url="_catalogs/wp">
+    <File Path="WP_DPCAllCourses\WP_DPCAllCourses.webpart" Url="NCB_DPC_FRONT_WP_DPCAllCourses.webpart" Type="GhostableInLibrary" >
+      <Property Name="Group" Value="Custom" />
+    </File>
+  </Module>
+</Elements>
